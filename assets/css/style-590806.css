@@ -148,7 +148,7 @@ a.follow:hover{
 }
 
 .text {
-  color: white;
+  color: #464a4c;
   /* position: absolute; */
   /* overflow-y: scroll; */
   padding: 10px;
@@ -1228,8 +1228,13 @@ div.page-body .driver .download span button:hover {
   z-index: 50;
 }
 #section2 .intro {
-  background: url(/assets/images/bg_event2.jpg) no-repeat center top;
+  /* background: url(/assets/images/bg_event2.jpg) no-repeat center top; */
   height: 1444px;
+  background-color: #0000006b;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s linear;
+    box-shadow: 2px 3px 0 2px #00000085;
 }
 #section2 .intro .element .char_area {
   position: relative;
@@ -1673,7 +1678,7 @@ footer .element .copy span {
 #main .section.main-info {
   padding: 0px 0 76px;
   min-width: 1400px;
-  background: #f9faec;
+  background: #c3c1b2;
 }
 #main .section.main-info .section-wrap {
   position: relative;
@@ -1847,7 +1852,8 @@ time {
   margin: 48px 0 0;
   width: 717px;
   height: 288px;
-  background: #f4f4f4;
+  background: #f4f4f400;
+  
 }
 tbody {
   display: table-row-group;
@@ -2145,7 +2151,7 @@ video {
   position: relative;
   width: 100%;
   height: 100%;
-  background: #fff no-repeat center 19px;
+  background: #c3c1b2 no-repeat center 19px;
   -webkit-transition-property: background;
   transition-property: background;
 }
@@ -2201,3 +2207,8 @@ video {
 .back i.fa-arrow-circle-left:hover{
   color: #cb0000 !important;
 }
+
+
+
+/*  */
+
