@@ -1697,7 +1697,11 @@ a:focus {
   left: 0;
   width: 260px;
   padding: 15px 0;
-  background-color: #000000;
+  transition: all 0.5s linear;
+  background-color: rgb(22 22 22 / 80%);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
   border-radius: 7px;
   z-index: 9999;
   opacity: 0;
@@ -1737,6 +1741,7 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 
 #main-nav li:hover .sub-menu {
   opacity: 1;
+  
   visibility: visible;
   pointer-events: all;
   -webkit-transform: translateY(0);
@@ -1748,7 +1753,7 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 
 #main-nav .sub-menu li.current-item > a,
 #main-nav .sub-menu li a:hover {
-  color: #ddf247;
+  color: #ddf247 !important;
 }
 
 #main-nav > ul > li .sub-menu li {
