@@ -156,7 +156,7 @@ html {
 }
 
 body {
-  background-image: url("../images/messageImage_1701703732740.jpg");
+  background-image: url("../images/wp_12_1920.jpg");
   line-height: 1;
   padding: 0 !important;
   background-repeat: no-repeat;
@@ -290,7 +290,11 @@ nav,
 section {
   display: block;
 }
-
+.swiper-slide.mySwiper-img {
+  height: 573px !important;
+  background-position: center !important;
+  /* background-size: cover !important; */
+}
 ol,
 ul {
   list-style: none;

@@ -267,7 +267,7 @@ a.follow:hover{
 }
 
 #wrapper {
-  background-color: #0000006b;
+  background-color: #fffefe24;
   backdrop-filter: blur(10px);
   transition: all 0.5s linear;
   box-shadow: 2px 3px 0 2px #00000085;
@@ -2212,3 +2212,268 @@ video {
 
 /*  */
 
+.swiper {
+  width: 100%;
+  height: 100%;
+  background: #00000002;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  transition: all 0.5s linear;
+  background-color: #c3c1b26b;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+/*  */
+
+/* Position the image container (needed to position the left and right arrows) */
+.container.slides {
+  position: relative;
+  width: 1430px;
+ 
+}
+.bg-slides {
+  background: #c2c0b3;
+  
+}
+.bg-slides h2 {
+  font-family: 'Blaka Ink';
+  font-size: 47px;
+    color: #cf3000;
+    text-transform: capitalize;
+    margin-bottom: 20px !important;
+}
+
+.mySlides.text-center p {
+  color: #000000;
+}
+
+.menu-slide {
+  display: flex;
+  justify-content: center;
+  height: 146px;
+    /* width: 100%; */
+}
+table.tbl_lst{
+  max-width:622px;
+}
+th.cell_v1 {
+  border-left: 1px solid #b2b0a4 !important;
+    background-color: transparent;
+    border-bottom: 1px solid #b2b0a4 !important;
+}
+.tbl_lst tbody tr {
+  border-top: 1px solid #b9b0b0 !important;
+}
+.list-img {
+  display: inline-block;
+  width: 50%;
+  margin-top: 0;
+  vertical-align: top;
+}
+div.bg-img {
+  padding: 0px 20px 20px 460px;
+  color: #fff;
+  /* height: 670px; */
+  background-size:  400px   !important;
+  background-repeat: no-repeat !important;
+  background-position: left !important;
+}
+div.contain {
+  max-height: 709px; 
+  overflow-x: auto;
+  box-shadow: inset 0px 3px 9px rgb(0 0 0 / 39%);
+  padding: 17px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    animation: slidenextregister .2s ease 0s normal none;
+}
+p.name- {
+   
+    font-size: 12px;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+    justify-content: center;
+}
+div.bg-img2 {
+  padding: 20px 20px 20px 460px;
+  color: #fff;
+  /* height: 670px; */
+  background-size:  400px  400px !important;
+  background-repeat: no-repeat !important;
+  /* background-position: left !important; */
+}
+.x-hr-border-glow {
+  height: 4px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg,#ffe9951f,#ffeb94 30%,#ffeb94 70%,#ffe9951f);
+  width: 101%;
+  text-align: center;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+hr {
+  box-sizing: initial !important;
+  height: 0;
+  overflow: visible;
+}
+div.bg-img3.show3 {
+  padding: 20px  460px 20px  20px ;
+  color: #fff;
+  height: 451px;
+  background-size:  400px !important;
+  background-repeat: no-repeat !important;
+  background-position: right  !important;
+}
+td.txt_left.txt_light{
+  text-align: justify;
+    padding: 15px;
+    border-left: 1px solid #b2b0a4  !important;
+    color: #e3fe22 ;
+    border-right: 1px solid #b2b0a4 !important;
+    border-bottom: 1px solid #b2b0a4 !important;
+}
+ .tbl_lst {
+  margin-top: 20px;
+  padding-left: 0;
+}
+ .tbl_lst {
+  border-top-color: #dfdfdf !important;
+}
+.tbl_lst {
+  width: 100%;
+  border-top: 1px solid #fff !important;
+  border-bottom: 1px solid #a4a4a4 !important;
+  font-size: 16px;
+  text-align: center;
+  background: #8a8980;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.mySlides.show {
+  display: block;
+  
+  height: 727px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 13.66%;
+}
+.column {
+  min-height: 183px;
+  height: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  cursor: pointer;
+  filter: opacity(0.2);
+}
+/* Add a transparency effect for thumnbail images */
+
+
+
+.column:hover {
+  filter: opacity(0.7);
+}
+.column.active,p.name-.active
+ {
+  filter: opacity(1);
+}
