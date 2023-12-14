@@ -264,7 +264,7 @@ body.background-white {
   background-color: #fff;
 }
 :root {
-  --main-color: #ffe18c;
+  --main-color: #ffe08c00;
 }
 ::-webkit-scrollbar {
   width: 0.2rem;
@@ -276,7 +276,7 @@ body.background-white {
   border-radius: 0.5rem;
 }
 ::-webkit-scrollbar-track {
-  background: #000000a3;
+  background: #00000000;
 }
 article,
 aside,

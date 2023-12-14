@@ -27,6 +27,7 @@
     border: 1px solid #060505 !important;
     background-color: #00000085;
     backdrop-filter: blur(5px);
+    margin-right: 20px;
 }
 #history .inner-content .widget-history {
   border-radius: 20px;
@@ -2293,7 +2294,20 @@ input[type="password"] {
     color: #8a8aa000;
 }
 
-
+input[type="tel"] {
+  border: none;
+  cursor:no-drop;
+  outline: 0;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Azeret Mono";
+  line-height: 22px;
+  border-radius: 12px;
+  padding: 15px 26px;
+  width: 100%;
+  background: #16161657;
+  color: #8a8aa000;
+}
 .item-codes{
   transition: all 0.5s linear;
   -webkit-backdrop-filter: blur(5px);
