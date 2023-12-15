@@ -918,7 +918,7 @@ a.link-buy-point {
 #market-header {
     position: absolute;
     left: 330px;
-    right: 33px;
+    right: 80px;
     top: 0;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -3020,6 +3020,13 @@ p .text-item {
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+
+.action__logindaily {
+
+  background: url(/assets/images/daily-login-05-BN-.jpg)!important;
+  border-radius: 30px;
+  width: 100%;
 }
 .action__body .bg-home7.bg-home77 {
   z-index: 0;
