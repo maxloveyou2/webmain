@@ -5,7 +5,7 @@
   background-color: #00000085;
   backdrop-filter: blur(5px);
   color: #dddddd !important;
-  padding: 16px ;
+  padding: 16px;
   font-size: 17px;
   font-weight: bold;
   border: none;
@@ -21,13 +21,13 @@
   border-radius: 10px;
 }
 .swiper-container.carousel1 {
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 13px;
-    border: 1px solid #060505 !important;
-    background-color: #00000085;
-    backdrop-filter: blur(5px);
-    margin-right: 20px;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 13px;
+  border: 1px solid #060505 !important;
+  background-color: #00000085;
+  backdrop-filter: blur(5px);
+  margin-right: 20px;
 }
 #history .inner-content .widget-history {
   border-radius: 20px;
@@ -46,9 +46,9 @@
   /* opacity: .2; */
 }
 .date a.dropbtn-bar:hover {
-  background-color: #85941391
-}  
-a.follow:hover{
+  background-color: #85941391;
+}
+a.follow:hover {
   opacity: 0.5;
 }
 /* The container <div> - needed to position the dropdown content */
@@ -59,7 +59,8 @@ a.follow:hover{
 .badge {
   font-weight: normal !important;
 }
-.tf-button.-point,  .tf-button.free-point {
+.tf-button.-point,
+.tf-button.free-point {
   width: 150px !important;
 }
 /* Dropdown Content (Hidden by Default) */
@@ -92,7 +93,6 @@ a.follow:hover{
   background-color: #ddd;
   border: 1px solid #ddd;
 }
-
 
 /* Show the dropdown menu on hover */
 .dropdown-bar:hover .dropdown-content-bar {
@@ -1232,10 +1232,10 @@ div.page-body .driver .download span button:hover {
   /* background: url(/assets/images/bg_event2.jpg) no-repeat center top; */
   height: 1444px;
   background-color: #0000006b;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    transition: all 0.5s linear;
-    box-shadow: 2px 3px 0 2px #00000085;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  transition: all 0.5s linear;
+  box-shadow: 2px 3px 0 2px #00000085;
 }
 #section2 .intro .element .char_area {
   position: relative;
@@ -1525,18 +1525,17 @@ input {
 }
 .widget-content-inner.history-box {
   display: block;
-    overflow-x: auto;
-    max-height: 1000px;
-    background: rgb(0 0 0 / 29%);
-    border-radius: 10px;
-    padding: 10px 10px;
-    box-shadow: inset 1px 9px 20px 6px #3f3737;
+  overflow-x: auto;
+  max-height: 1000px;
+  background: rgb(0 0 0 / 29%);
+  border-radius: 10px;
+  padding: 10px 10px;
+  box-shadow: inset 1px 9px 20px 6px #3f3737;
 }
 .text-wrap .list-group-item {
-  
   border: 1px solid #060505 !important;
-    background-color: #00000085;
-    backdrop-filter: blur(5px);
+  background-color: #00000085;
+  backdrop-filter: blur(5px);
   color: #bdbac0;
   margin: 4px 5px;
   border-radius: 8px;
@@ -1576,7 +1575,7 @@ span.ribbon.market {
   color: white;
 }
 
- a.dropbtn-bar.point_free {
+a.dropbtn-bar.point_free {
   border: 1px solid rgb(86, 177, 255) !important;
 }
 a.dropbtn-bar.point_free:hover {
@@ -1586,7 +1585,7 @@ a.dropbtn-bar.point {
   border: 1px solid #c8da41 !important;
   color: #c8da41 !important;
 }
-a.dropbtn-bar.point:hover{
+a.dropbtn-bar.point:hover {
   background-color: #c8da4159;
   color: #c8da41 !important;
 }
@@ -1601,10 +1600,10 @@ a.dropbtn-bar.point:hover{
   position: relative;
 }
 .ms-auto {
-  margin-inline-start: auto!important;
+  margin-inline-start: auto !important;
 }
 .float-start {
-  float: left!important;
+  float: left !important;
 }
 .text-wrap .btn-light {
   color: #fff;
@@ -1854,7 +1853,6 @@ time {
   width: 717px;
   height: 288px;
   background: #f4f4f400;
-  
 }
 tbody {
   display: table-row-group;
@@ -2205,11 +2203,9 @@ video {
   background-color: #c9e5f2;
 }
 
-.back i.fa-arrow-circle-left:hover{
+.back i.fa-arrow-circle-left:hover {
   color: #cb0000 !important;
 }
-
-
 
 /*  */
 /* 
@@ -2257,16 +2253,50 @@ img.avatar {
   margin-bottom: 15px;
   padding: 10px;
 }
+p.date {
+  margin-bottom: 15px;
+}
+img.avatar2 {
+  display: inline;
+  max-width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin-bottom: 0;
+  padding: 0px;
+  border: 3px solid #fdf4f7;
+}
+img.avatar2.active {
+  filter:brightness(0.3);
+  border: 3px solid #ee0606 !important;
+}
+h3.titel-login {
+  font-size: 33px;
+  color: #464a4c;
+}
+span.received.active {
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  left: 30px;
+  transform: rotate(20deg);
+  color: #ff0000 !important;
+  font-weight: 900;
+}
+
+span.text-name {
+  color: #000000 !important;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
 .container.myicon {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
 }
-img.avatar:hover{
+img.avatar:hover {
   filter: brightness(1.5);
 }
- .modal-content.myicon {
+.modal-content.myicon {
   transition: all 0.5s linear;
   background-color: #c3c1b26b;
   -webkit-backdrop-filter: blur(5px);
@@ -2281,22 +2311,22 @@ img.avatar:hover{
   font-size: 18px;
 }
 input[type="password"] {
-    border: none;
-    outline: 0;
-    box-shadow: none;
-    font-size: 14px;
-    font-family: "Azeret Mono";
-    line-height: 22px;
-    border-radius: 12px;
-    padding: 15px 26px;
-    width: 100%;
-    background: #161616;
-    color: #8a8aa000;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Azeret Mono";
+  line-height: 22px;
+  border-radius: 12px;
+  padding: 15px 26px;
+  width: 100%;
+  background: #161616;
+  color: #8a8aa000;
 }
 
 input[type="tel"] {
   border: none;
-  cursor:no-drop;
+  cursor: no-drop;
   outline: 0;
   box-shadow: none;
   font-size: 14px;
@@ -2308,7 +2338,7 @@ input[type="tel"] {
   background: #16161657;
   color: #8a8aa000;
 }
-.item-codes{
+.item-codes {
   transition: all 0.5s linear;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -2316,7 +2346,7 @@ input[type="tel"] {
   padding: 20px;
   border-radius: 20px !important;
   max-height: 800px;
-    overflow: auto;
+  overflow: auto;
 }
 .modal.myicon {
   display: none; /* Hidden by default */
@@ -2328,8 +2358,8 @@ input[type="tel"] {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   padding-top: 60px;
 }
 
@@ -2337,7 +2367,7 @@ input[type="tel"] {
 .modal-content.myicon {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
+ border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
 
@@ -2374,18 +2404,16 @@ input[type="tel"] {
 .container.slides {
   position: relative;
   width: 1430px;
- 
 }
 .bg-slides {
   background: #c2c0b3;
-  
 }
 .bg-slides h2 {
-  font-family: 'Blaka Ink';
+  font-family: "Blaka Ink";
   font-size: 47px;
-    color: #cf3000;
-    text-transform: capitalize;
-    margin-bottom: 20px !important;
+  color: #cf3000;
+  text-transform: capitalize;
+  margin-bottom: 20px !important;
 }
 
 .mySlides.text-center p {
@@ -2396,15 +2424,15 @@ input[type="tel"] {
   display: flex;
   justify-content: center;
   height: 146px;
-    /* width: 100%; */
+  /* width: 100%; */
 }
-table.tbl_lst{
-  max-width:622px;
+table.tbl_lst {
+  max-width: 622px;
 }
 th.cell_v1 {
   border-left: 1px solid #b2b0a4 !important;
-    background-color: transparent;
-    border-bottom: 1px solid #b2b0a4 !important;
+  background-color: transparent;
+  border-bottom: 1px solid #b2b0a4 !important;
 }
 .tbl_lst tbody tr {
   border-top: 1px solid #b9b0b0 !important;
@@ -2419,32 +2447,31 @@ div.bg-img {
   padding: 0px 20px 20px 460px;
   color: #fff;
   /* height: 670px; */
-  background-size:  400px   !important;
+  background-size: 400px !important;
   background-repeat: no-repeat !important;
   background-position: left !important;
 }
 div.contain {
-  max-height: 709px; 
+  max-height: 709px;
   overflow-x: auto;
   box-shadow: inset 0px 3px 9px rgb(0 0 0 / 39%);
   padding: 17px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    animation: slidenextregister .2s ease 0s normal none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  animation: slidenextregister 0.2s ease 0s normal none;
 }
 p.name- {
-   
-    font-size: 12px;
-    font-weight: 700;
-    color: #000;
-    display: flex;
-    justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  display: flex;
+  justify-content: center;
 }
 div.bg-img2 {
   padding: 20px 20px 20px 460px;
   color: #fff;
   /* height: 670px; */
-  background-size:  400px  400px !important;
+  background-size: 400px 400px !important;
   background-repeat: no-repeat !important;
   /* background-position: left !important; */
 }
@@ -2452,7 +2479,13 @@ div.bg-img2 {
   height: 4px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background: linear-gradient(90deg,#ffe9951f,#ffeb94 30%,#ffeb94 70%,#ffe9951f);
+  background: linear-gradient(
+    90deg,
+    #ffe9951f,
+    #ffeb94 30%,
+    #ffeb94 70%,
+    #ffe9951f
+  );
   width: 101%;
   text-align: center;
 }
@@ -2460,7 +2493,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0,0,0,.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 hr {
   box-sizing: initial !important;
@@ -2468,26 +2501,26 @@ hr {
   overflow: visible;
 }
 div.bg-img3.show3 {
-  padding: 20px  460px 20px  20px ;
+  padding: 20px 460px 20px 20px;
   color: #fff;
   height: 451px;
-  background-size:  400px !important;
+  background-size: 400px !important;
   background-repeat: no-repeat !important;
-  background-position: right  !important;
+  background-position: right !important;
 }
-td.txt_left.txt_light{
+td.txt_left.txt_light {
   text-align: justify;
-    padding: 15px;
-    border-left: 1px solid #b2b0a4  !important;
-    color: #e3fe22 ;
-    border-right: 1px solid #b2b0a4 !important;
-    border-bottom: 1px solid #b2b0a4 !important;
+  padding: 15px;
+  border-left: 1px solid #b2b0a4 !important;
+  color: #e3fe22;
+  border-right: 1px solid #b2b0a4 !important;
+  border-bottom: 1px solid #b2b0a4 !important;
 }
- .tbl_lst {
+.tbl_lst {
   margin-top: 20px;
   padding-left: 0;
 }
- .tbl_lst {
+.tbl_lst {
   border-top-color: #dfdfdf !important;
 }
 .tbl_lst {
@@ -2504,7 +2537,7 @@ td.txt_left.txt_light{
 }
 .mySlides.show {
   display: block;
-  
+
   height: 727px;
 }
 
@@ -2581,12 +2614,10 @@ td.txt_left.txt_light{
 }
 /* Add a transparency effect for thumnbail images */
 
-
-
 .column:hover {
   filter: opacity(0.7);
 }
-.column.active,p.name-.active
- {
+.column.active,
+p.name-.active {
   filter: opacity(1);
 }

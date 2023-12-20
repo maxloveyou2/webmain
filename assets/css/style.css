@@ -932,6 +932,7 @@ a.link-buy-point {
   backdrop-filter: blur(5px);
   transition: all 0.5s linear;
   box-shadow: 2px 3px 0 2px #00000085;
+  min-height: 960px;
 }
 .tf-card-box {
     border-radius: 20px;
@@ -3024,7 +3025,10 @@ p .text-item {
 
 .action__logindaily {
 
-  background: url(/assets/images/daily-login-05-BN-.jpg)!important;
+  background: url(/assets/images/daily-login-05-BN-.jpg);
+  background-position: right !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
   border-radius: 30px;
   width: 100%;
 }
