@@ -6,7 +6,7 @@
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: "Noto Sans Thai";
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -337,7 +337,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Noto Sans Thai", Roboto, "Noto Sans Thai", Noto Sans Thai, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
@@ -702,7 +702,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Menlo, Monaco, Consolas, "Noto Sans Thai", "Courier New", monospace;
 }
 
 code {

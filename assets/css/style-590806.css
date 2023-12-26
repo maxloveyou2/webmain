@@ -118,7 +118,7 @@ a.follow:hover {
 }
 .author .info h6 {
   font-size: 16px;
-  font-family: "Azeret Mono";
+  font-family: "Noto Sans Thai";
   line-height: 19px;
   font-weight: 400;
 }
@@ -989,7 +989,7 @@ div.page-body .driver .download span button {
 .text-bid.free-point {
   color: rgb(2, 117, 216);
   font-size: 16px;
-  font-family: "Azeret Mono";
+  font-family: "Noto Sans Thai";
   font-weight: 400;
   line-height: 19px;
 }
@@ -1061,7 +1061,7 @@ a.-point {
 .price.point {
   color: rgb(51, 204, 51);
   font-size: 16px;
-  font-family: "Azeret Mono";
+  font-family: "Noto Sans Thai";
   font-weight: 400;
   line-height: 19px;
 }
@@ -2256,17 +2256,19 @@ img.avatar {
 p.date {
   margin-bottom: 15px;
 }
-img.avatar2 {
-  display: inline;
+.avatar2 {
+  display: block !important;
   max-width: 125px;
+  justify-content: center;
   height: 125px;
   border-radius: 50%;
-  margin-bottom: 0;
+  margin: 0 auto;
   padding: 0px;
   border: 3px solid #fdf4f7;
+  filter:brightness(1) !important;
 }
 img.avatar2.active {
-  filter:brightness(0.3);
+  filter:brightness(0.3) !important;
   border: 3px solid #ee0606 !important;
 }
 h3.titel-login {
@@ -2277,7 +2279,7 @@ span.received.active {
   position: absolute;
   top: 50px;
   font-size: 30px;
-  left: 30px;
+  left: 65px;
   transform: rotate(20deg);
   color: #ff0000 !important;
   font-weight: 900;
@@ -2287,6 +2289,9 @@ span.text-name {
   color: #000000 !important;
   margin-bottom: 15px;
   margin-top: 15px;
+  font-size: small !important;
+  display: flex;
+  justify-content: center;
 }
 .container.myicon {
   display: flex;
@@ -2311,17 +2316,19 @@ img.avatar:hover {
   font-size: 18px;
 }
 input[type="password"] {
-  border: none;
-  outline: 0;
-  box-shadow: none;
-  font-size: 14px;
-  font-family: "Azeret Mono";
-  line-height: 22px;
-  border-radius: 12px;
-  padding: 15px 26px;
-  width: 100%;
-  background: #161616;
-  color: #8a8aa000;
+
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    font-size: 14px;
+    font-family: "Noto Sans Thai";
+    line-height: 22px;
+    border-radius: 12px;
+    padding: 15px 26px;
+    width: 100%;
+    background: #161616;
+    color: #8a8aa000;
+
 }
 
 input[type="tel"] {
@@ -2330,7 +2337,7 @@ input[type="tel"] {
   outline: 0;
   box-shadow: none;
   font-size: 14px;
-  font-family: "Azeret Mono";
+  font-family: "Noto Sans Thai";
   line-height: 22px;
   border-radius: 12px;
   padding: 15px 26px;
@@ -2409,7 +2416,7 @@ input[type="tel"] {
   background: #c2c0b3;
 }
 .bg-slides h2 {
-  font-family: "Blaka Ink";
+
   font-size: 47px;
   color: #cf3000;
   text-transform: capitalize;
