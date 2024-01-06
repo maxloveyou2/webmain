@@ -9,7 +9,8 @@
 @import "animation.css";
 @import "animate.min.css";
 @import "swiper-bundle.min.css";
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500&family=Prompt&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500&family=Noto+Serif+Thai:wght@500&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Sriracha&display=swap");
+
 @import "bootstrap.css";
 /* @import "responsive.css"; */
 /**
@@ -119,7 +120,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: "Noto Sans Thai", sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -162,7 +163,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  
+  font-family: 'Prompt', sans-serif!important;
   background-size: cover;
 }
 .product-detail {
@@ -223,7 +224,7 @@ body {
 .maxtimes  {
 
   font-size: 100px !important;
-  font-family: 'Noto Sans Thai', cursive !important;
+  font-family: 'Prompt', cursive !important;
 
 }
 .maxtimes > h1 {
@@ -232,7 +233,7 @@ body {
   border: 1px solid red !important;
 }
 .maxtimes2  {
-  font-family: 'Noto Sans Thai', cursive;
+  font-family: 'Prompt', cursive;
   font-size: 30px !important;
 
 }
@@ -337,7 +338,7 @@ td {
   font-size: 14px;
   line-height: 1.5714285714285714;
   list-style: none;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+  /* font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'; */
   position: relative;
   display: flex;
   align-items: center;
@@ -411,7 +412,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Noto Sans Thai", sans-serif !important;
+  font-family: "Prompt", sans-serif !important;
   color: #dddddd !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -752,7 +753,10 @@ fieldset {
 
 form label {
   color: #fff;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-size: 14px;
   font-weight: 700;
   line-height: 19px;
@@ -805,7 +809,10 @@ select {
   -moz-box-shadow: none;
   box-shadow: none;
   font-size: 14px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   line-height: 22px;
   border-radius: 12px;
   padding: 15px 26px;
@@ -843,7 +850,10 @@ input[type="color"] {
   -moz-box-shadow: none;
   box-shadow: none;
   font-size: 14px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   line-height: 22px;
   border-radius: 12px;
   padding: 15px 26px;
@@ -893,7 +903,10 @@ input[type="color"]::placeholder {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   color: rgba(255, 255, 255, 0.53);
 }
 h5.title-widget {
@@ -1196,7 +1209,7 @@ input.style-1[type="submit"]:focus {
 }
 
 textarea {
-  height: 180px;
+  height: 580px;
 }
 
 input.style-2 {
@@ -1850,14 +1863,20 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
   height: 44px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 10px 18px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-weight: 400;
   line-height: 19px;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .header_1.header-full .widget-search input::placeholder {
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-weight: 400;
   line-height: 19px;
   color: rgba(255, 255, 255, 0.5);
@@ -1976,7 +1995,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 .widget-menu ul li a {
   color: rgba(255, 255, 255, 0.53);
   font-size: 14px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   line-height: 22px;
   position: relative;
 }
@@ -2080,7 +2102,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 .footer-bottom p {
   color: rgba(255, 255, 255, 0.53);
   font-size: 14px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   line-height: 22px;
 }
 
@@ -2090,7 +2115,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 
 .footer-bottom ul li a {
   color: rgba(255, 255, 255, 0.53);
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-size: 14px;
   line-height: 22px;
 }
@@ -2250,7 +2278,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: "Noto Sans Thai";
+    font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   }
   
   .title2 {
@@ -2498,7 +2529,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 .section-menu-left .bottom p {
   color: rgba(255, 255, 255, 0.53);
   font-size: 12px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-weight: 400;
   line-height: 19px;
   padding: 0 30px;
@@ -2525,7 +2559,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 .section-menu-left .content h6 {
   padding: 0 30px;
   font-size: 14px;
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-style: normal;
   font-weight: 600;
   line-height: 21px;
@@ -2774,7 +2811,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 }
 
 #menu-mobile-menu li a {
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -2822,7 +2862,10 @@ button.tf-button.bg-grey:hover, button.tf-button.bg-grey.active, button.tf-butto
 }
 
 #menu-mobile-menu > li .sub-menu-mobile a {
-  font-family: "Noto Sans Thai";
+  font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Noto Serif Thai', serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sriracha', cursive;
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
@@ -3042,7 +3085,7 @@ p .text-item {
   right: 41px;
 }
 :root {
-  --fontFamily: "Noto Sans Thai", sans-serif;
+  --fontFamily: "Prompt", sans-serif;
   --mainColor: #0ec6c6;
   --mainColor2: #30eded;
   --optionalColor: #666;
@@ -3114,9 +3157,9 @@ body {
   font-size: 14px;
   line-height: 22px;
   list-style: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   position: absolute;
   top: -23px;
   white-space: nowrap;
