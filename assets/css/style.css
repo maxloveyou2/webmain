@@ -176,7 +176,16 @@ body {
 .imgchoffline {
   filter: grayscale(1);
 }
-
+.bg-amx{
+  line-height: 1;
+  background-image: url("../../assets//images/game/bg_main.jpg");
+  padding: 0 !important;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  font-family: 'Prompt', sans-serif!important;
+  background-size: cover;
+}
 .expired-notice {
   text-align: center;
   padding: 2rem;
