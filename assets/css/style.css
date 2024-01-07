@@ -186,6 +186,9 @@ body {
   font-family: 'Prompt', sans-serif!important;
   background-size: cover;
 }
+.maxsuccess{
+  filter: grayscale(0)!important;
+}
 .expired-notice {
   text-align: center;
   padding: 2rem;
