@@ -1232,7 +1232,7 @@ input.style-1[type="submit"]:focus {
 }
 
 textarea {
-  height: 580px;
+  height: 100%;
 }
 
 input.style-2 {
@@ -3021,6 +3021,20 @@ td, th {
 .Screenshot_3{
   background: url(/assets/images/Screenshot_3.png)!important;
  
+}
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .flat-pages-title-home3.homepages {
   padding-top: 83px;
